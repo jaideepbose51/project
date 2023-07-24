@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.main {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #273c75, #f3f3f3, #273c75);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.datamain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 90vh;
+  border-radius: 16.006px;
+  background: #fff;
+  box-shadow: -3.5569891929626465px 3.5569891929626465px 11.56021499633789px 0px
+    rgba(0, 0, 0, 0.25);
+}
+
+.welcome {
+  font-family: "Mulish", sans-serif;
+  margin: 10px;
+  color: #000;
+  font-size: 26.677px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.334px;
+}
+
+.enter_personal {
+  color: #000;
+  font-family: "Mulish", sans-serif;
+  font-size: 13.339px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.google {
+  display: inline-block;
+  width: 372.6px;
+  height: 42.3px;
+  margin-top: 3vh;
+  flex-shrink: 0;
+  border-radius: 10.8px;
+  border: 0.9px solid #000;
+}
+
+.or {
+  color: #000;
+  font-family: Mulish;
+  margin: 2vh;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.forndiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-top: 3vh;
+  width: 420px;
+  height: 5vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  stroke-width: 0.9px;
+  stroke: #000;
+}
+
+.Signup {
+  width: 430px;
+  height: 5vh;
+  margin-top: 3vh;
+  flex-shrink: 0;
+  border-radius: 7.2px;
+  background: #282828;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 19.8px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.alreadymember {
+  margin-top: 5vh;
+  color: #000;
+  font-family: Mulish;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: Mulish;
+
+  font-size: 15px;
+}

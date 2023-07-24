@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+body {
+  margin: 0%;
+  display: flex;
+}
+
+.maindiv {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text {
+  display: inline-block;
+  width: 30px;
+  font-family: "Caprasimo", cursive;
+  font-size: 20px;
+  opacity: 0;
+  animation: dropWords 1s ease-in-out forwards,
+    disappear 2s 3s ease-in-out forwards;
+}
+.stext {
+  display: inline-block;
+  width: 30px;
+  font-family: "Caprasimo", cursive;
+  font-size: 20px;
+  opacity: 0;
+  animation: dropWords 1s ease-in-out forwards, turn 2s 3s ease-in-out forwards;
+}
+
+@keyframes dropWords {
+  0% {
+    opacity: 0;
+    transform: translateY(-50vh);
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes disappear {
+  100% {
+    opacity: 0;
+    transform: translateY(-60vh);
+  }
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes turn {
+  0% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: 90deg;
+  }
+  25% {
+    rotate: 90deg;
+  }
+  50% {
+    font-size: 50px;
+  }
+  75% {
+    font-size: 70px;
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.first {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a1;
+  background-color: #fff; /* Set your default background color here */
+  animation-delay: 5s;
+  animation: a1 3s 1s 1 normal forwards;
+}
+@keyframes a1 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #e93f3f;
+  }
+  100% {
+    left: 0;
+    background-color: #e93f3f;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #e93f3f;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.second {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a2 3s 1s 1 normal forwards;
+}
+@keyframes a2 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #e5b93e;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #e5b93e;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.third {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a3 3s 1s 1 normal forwards;
+}
+@keyframes a3 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #8ee63c;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #8ee63c;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.fourth {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a4 3s 1s 1 normal forwards;
+}
+@keyframes a4 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #3fe665;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #3fe665;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.fifth {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a5 3s 1s 1 normal forwards;
+}
+@keyframes a5 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #3de5e5;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #3de5e5;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.sixth {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a6 3s 1s 1 normal forwards;
+}
+@keyframes a6 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #3a64e9;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #3a64e9;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.seventh {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a7 3s 1s 1 normal forwards;
+}
+@keyframes a7 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #b56931;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #b56931;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
+.eight {
+  display: inline-flex;
+  height: 100vh;
+  width: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: a8 3s 1s 1 normal forwards;
+}
+@keyframes a8 {
+  0% {
+    left: -100%; /* Move the element outside the left side of the screen */
+    background-color: #e73fb9;
+  }
+  50% {
+    left: 0; /* Move the element back to its original position */
+    background-color: #e73fb9;
+  }
+  100% {
+    left: 100%; /* Move the element outside the right side of the screen */
+    background-color: #fff; /* Set your default background color here */
+  }
+}
